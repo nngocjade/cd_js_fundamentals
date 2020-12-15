@@ -7,12 +7,14 @@
 // "Coder" + "School" = "CoderSchool"
 // Before you execute the code, predict in your head what will be returned.
 
-console.log("-----------------------------------------");
+console.log("``````````````````````````````````````````````````````````");
 
-let assignment2 = "assignment2" + " : " + "Operators" + " +  & " + "Comparison";
+let assignment2 =
+  "ASSIGNMENT 2" + " : " + "Operators" + " +  & " + "Comparison";
 console.log(assignment2);
 
-console.log("Operators");
+// --------------------Operators------------------------
+console.log("---Operators---");
 
 let ten = 10;
 let twentyFour = 24;
@@ -27,22 +29,43 @@ console.log('"Hello"' + " + " + '" " ' + " + " + 2021 + " = " + concatenation);
 //
 let math = 1 + 2 * 3;
 console.log("1 + 2 * 3" + " = " + math);
-
+//
 let math1 = (1 + 3) ** 2;
 console.log("(1 + 3) ** 2" + " = " + math1);
+//
+let division = 1 / 0;
+console.log("1 / 0" + " = " + division);
+//
+let modulusDivisionRemainder = 6 % 2;
+console.log("6 % 2" + " = " + modulusDivisionRemainder);
+//
+let modulusDivisionRemainder1 = 5.5 % 2;
+console.log("5.5 % 2" + " = " + modulusDivisionRemainder1);
+//
+let number = Number("123");
+console.log(number);
+//
+let typeOf = typeof (1 + "");
+console.log(typeOf);
+//
+// ----------------Logical & Comparison-------------------
+console.log("---Logical & Comparison ---");
 
-// 1 / 0;
-// 6 % 2;
-// 5.5 % 2;
-// Number("123");
-// typeof (1 + "");
-// Logical & Comparison;
-
-// 5 == "5";
-// 5 === "5";
-// 8 != 8.0;
-// 8 !== 8.0;
-// "true" === true;
+let equalTo = 5 == "5";
+console.log("5 == '5'" + " = " + equalTo);
+//
+let equalValueAndEqualType = 5 === "5";
+console.log(' 5 === "5"' + " = " + equalValueAndEqualType);
+//
+let notEqual = 8 != 8.0;
+console.log("8 != 8.0" + " = " + notEqual);
+//
+let notEqualValueOrNotEqualType = 8 !== 8.0;
+console.log("8 !== 8.0" + " = " + notEqualValueOrNotEqualType);
+//
+let notEqualValueAndNotEqualType = "true" === true;
+console.log('"true" === true' + " = " + notEqualValueAndNotEqualType);
+//
 // 4 <= 4.0;
 // 7 >= 7;
 // true && true;

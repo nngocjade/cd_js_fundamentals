@@ -10,7 +10,7 @@
 // Log the type of radius to the console.
 // Declare a variable called area which is calculated by pi and radius to get the area of a circle (the area of a circle is pi times the radius squared).
 
-let assignment1 = "assignment1";
+let assignment1 = "ASSIGNMENT 1";
 console.log(assignment1);
 
 let pi = 3.14;
