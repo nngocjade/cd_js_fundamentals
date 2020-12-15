@@ -24,8 +24,13 @@ console.log('"10"' + " + " + '"24"' + " = " + string);
 //
 let concatenation = "Hello" + " " + 2021;
 console.log('"Hello"' + " + " + '" " ' + " + " + 2021 + " = " + concatenation);
+//
+let math = 1 + 2 * 3;
+console.log("1 + 2 * 3" + " = " + math);
 
-// 1 + 2 * 3(1 + 3) ** 2;
+let math1 = (1 + 3) ** 2;
+console.log("(1 + 3) ** 2" + " = " + math1);
+
 // 1 / 0;
 // 6 % 2;
 // 5.5 % 2;
