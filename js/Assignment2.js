@@ -66,13 +66,34 @@ console.log("8 !== 8.0" + " = " + notEqualValueOrNotEqualType);
 let notEqualValueAndNotEqualType = "true" === true;
 console.log('"true" === true' + " = " + notEqualValueAndNotEqualType);
 //
-// 4 <= 4.0;
-// 7 >= 7;
-// true && true;
-// true && false;
-// true || true;
-// false || true;
-// !true;
-// !false;
-// false && (true || true);
-// (false && true) || true;
+let lessThanOrEqualTo = 4 <= 4.0;
+console.log("4 <= 4.0" + " = " + lessThanOrEqualTo);
+//
+let greaterThanOrEqualTo = 7 >= 7;
+console.log("7 >= 7" + " = " + greaterThanOrEqualTo);
+//
+let trueAndTrue = true && true;
+console.log(`true && true = ${trueAndTrue}`);
+//
+let trueAndFalse = true && false;
+console.log(`true && false = ${trueAndFalse}`);
+//
+let trueOrTrue = true || true;
+console.log(`true || true = ${trueAndTrue}`);
+//
+//The logical OR ( || ) operator (logical disjunction) for a set of operands is true if and only if one or more of its operands is true. It is typically used with Boolean (logical) values. When it is, it returns a Boolean value.
+let falseOrTrue = false || true;
+console.log(`false || true = ${falseOrTrue}`);
+//
+let notTrue = !true;
+console.log(`!true = ${notTrue}`);
+//
+let notFalse = !false;
+console.log(`!false = ${notFalse}`);
+//
+//The logical AND (&&) operator (logical conjunction) for a set of operands is true if and only if all of its operands are true. It is typically used with Boolean (logical) values. When it is, it returns a Boolean value. However, the && operator actually returns the value of one of the specified operands, so if this operator is used with non-Boolean values, it will return a non-Boolean value.
+let falseAndOrTrue = false && (true || true);
+console.log(`false && (true || true) = ${falseAndOrTrue}`);
+//
+let falseAndOrTrue1 = (false && true) || true;
+console.log(`(false && true) || true = ${falseAndOrTrue1}`);
