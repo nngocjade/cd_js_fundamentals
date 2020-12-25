@@ -18,3 +18,23 @@ function equalZeroEvenOrOddNumber(x) {
 equalZeroEvenOrOddNumber(5);
 equalZeroEvenOrOddNumber(4);
 equalZeroEvenOrOddNumber(0);
+
+function smallestAndBiggest(a, b, c) {
+  let smallest = a;
+  let biggest = a;
+
+  if (smallest > b) {
+    smallest = b;
+  }
+  if (smallest > c) {
+    smallest = c;
+  }
+  if (biggest > b) {
+    biggest = b;
+  }
+  if (biggest < c) {
+    biggest = c;
+  }
+  return (result = `${smallest} is the smallest number, and ${biggest} is the biggest number`);
+}
+console.log(smallestAndBiggest(5, 20, 70));
